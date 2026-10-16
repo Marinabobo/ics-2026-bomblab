@@ -475,4 +475,4 @@ Full run + Honor: 25 deterministic random seeds PASS
 - GNU Binutils `objdump`、GDB 本地帮助与手册页
 - System V AMD64 调用约定和 x86-64 指令语义
 
-AI 使用情况：按照课程更新后的要求，本实验使用 OpenAI Codex 协助读取和解释反汇编、恢复计算关系、实现 `defuser.c`、设计多 seed 验证、运行测试并整理报告。所有结论均通过个人 `bomb` 的实际执行、公开测试及额外随机 seed 验证；报告中的命令、输出与图片均来自本仓库的真实运行结果。
+AI 使用情况：本实验使用 OpenAI Codex 作为辅助工具，用于解释反汇编、核对计算关系、协助实现和检查 `defuser.c`、设计测试以及整理报告。最终结果均通过个人 `bomb` 的实际运行、公开测试和额外 seed 验证；报告中的命令、输出与图片均来自本仓库的真实运行结果。
